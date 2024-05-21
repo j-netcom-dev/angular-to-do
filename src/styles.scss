@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh; 
+    background-color: #eea7b641;
+    background-color: #a3a1a759;
+    background-color: #eea7b6;
+    background-color: #f9f9f9dc;
+}
+
+main{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: #e7dfdf71;
+}
