@@ -1,0 +1,52 @@
+.list__items{
+    gap: 1rem;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    .items{
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+    
+        .item{
+            display: flex;
+            padding: 1rem;
+            align-items: center;
+            border-radius: .75rem;
+            background-color: #eea7b623;
+            justify-content: space-between;
+            
+            .done{
+                text-decoration: line-through;
+            }
+            .action__buttons{
+                gap: .5rem;
+                display: flex;
+                align-items: center;
+    
+                button{
+                    border: 0;
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    color: white;
+                    cursor: pointer;
+                    font-size: 1rem;
+                    border-radius: 50%;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .danger{
+                    background-color: rgb(148, 13, 13);
+                }
+                .warning{
+                    background-color: rgb(136, 93, 14);
+                }
+                .success{
+                    background-color: rgb(8, 78, 78);
+                }
+            }
+        }
+    }
+
+}
