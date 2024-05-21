@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { AddComponent } from './components/add/add.component';
+import { ListComponent } from './components/list/list.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  styleUrl: './app.component.scss',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  imports: [AddComponent, ListComponent],
 })
 export class AppComponent {
   title = 'angular-todos';
 }
+
